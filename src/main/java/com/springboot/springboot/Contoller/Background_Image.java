@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/api/Background_Image")
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://cheap-games-frontend.vercel.app")
 public class Background_Image {
 
     private final RestTemplate restTemplate = new RestTemplate();

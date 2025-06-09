@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/api/games")
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://cheap-games-frontend.vercel.app")
 public class GameController {
 
     private final RestTemplate restTemplate = new RestTemplate();
